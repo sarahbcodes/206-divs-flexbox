@@ -105,8 +105,46 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
+}
+
+header,
+footer {
+  background-color: inherit;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.3em;
+  height: 500px;
+  justify-content: center;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+  align-items: center;
+  display: flex;
+}
+
+header {
+  color: pink;
+  font-family: 'Lobster', cursive;
+  font-size: 5.5em;
+  padding-top: 10px;
+}
+
+footer {
+  color: pink;
+  align-items: center;
+  display: flex;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
 }
 
 .wrapper {
